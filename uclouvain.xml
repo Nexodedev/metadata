@@ -1,0 +1,121 @@
+<md:EntitiesDescriptor xmlns:oaf="http://schemas.eduserv.org.uk/openathens-federation/1.0" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xrd="http://docs.oasis-open.org/ns/xri/xrd-1.0" xmlns:pyff="http://pyff.io/NS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ser="http://eidas.europa.eu/metadata/servicelist" xmlns:eidas="http://eidas.europa.eu/saml-extensions" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:fed="http://docs.oasis-open.org/wsfed/federation/200706" xmlns:privacy="http://docs.oasis-open.org/wsfed/privacy/200706" xmlns:remd="http://refeds.org/metadata" xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ukfedlabel="http://ukfederation.org.uk/2006/11/label" xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport" xmlns:elab="http://eduserv.org.uk/labels" xmlns:wayf="http://sdss.ac.uk/2006/06/WAYF" xmlns:hoksso="urn:oasis:names:tc:SAML:2.0:profiles:holder-of-key:SSO:browser" xmlns:taat="http://www.eenet.ee/EENet/urn" xmlns:algsupport="urn:oasis:names:tc:SAML:metadata:algsupport" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" xmlns:disco="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:req="urn:oasis:names:tc:SAML:profiles:SSO:request-init" xmlns:saml1md="urn:mace:shibboleth:metadata:1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:refeds="http://refeds.org/metadata" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns1="http://www.w3.org/2000/09/xmldsig#" xmlns:ns2="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns3="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns5="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:ns6="urn:oasis:names:tc:SAML:metadata:ui" ID="be20240408T010010Z" Name="https://federation.belnet.be/federation-metadata.xml" validUntil="2024-04-15T23:00:10Z">
+<ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
+<ds:Reference URI="#be20240408T010010Z">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>27oZ3gqXE3ciZDnh4Oc+bMQ4l5P2p1gIatIL4x6N2io=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>8E+mMj3/60F0hGgjTry96FgK7w/uFiski4S/0WsgV7CAagrmEX9gfT2myAdmaIrKuxa/38fZ9sTSYdWzfJu3rA==</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIFADCCBKagAwIBAgIRAJgG6WWqJ3qHQMFr3V6+8eYwCgYIKoZIzj0EAwIwRDEL MAkGA1UEBhMCTkwxGTAXBgNVBAoTEEdFQU5UIFZlcmVuaWdpbmcxGjAYBgNVBAMT EUdFQU5UIE9WIEVDQyBDQSA0MB4XDTI0MDMwNjAwMDAwMFoXDTI1MDMwNjIzNTk1 OVowgZQxCzAJBgNVBAYTAkJFMScwJQYDVQQIDB5CcnV4ZWxsZXMtQ2FwaXRhbGUs IFLDqWdpb24gZGUxPTA7BgNVBAoMNFLDqXNlYXUgVMOpbMOpbWF0aXF1ZSBCZWxn ZSBkZSBsYSBSZWNoZXJjaGUgKEJlbG5ldCkxHTAbBgNVBAMTFGZlZGVyYXRpb24u YmVsbmV0LmJlMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEZpds9xnmQn5M8R8v 73OUmXtvBxFLgI1D0WJubag1L5/tXV+sXFRDRdE/XC2ejBXkWR+Srb2GdjMA6dRU qNECtKOCAyYwggMiMB8GA1UdIwQYMBaAFO20oDNqGwiRtr36QZK9mqurY/RTMB0G A1UdDgQWBBQisNHi3jSjppGNmMU4ltwuGuePMDAOBgNVHQ8BAf8EBAMCB4AwDAYD VR0TAQH/BAIwADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwSQYDVR0g BEIwQDA0BgsrBgEEAbIxAQICTzAlMCMGCCsGAQUFBwIBFhdodHRwczovL3NlY3Rp Z28uY29tL0NQUzAIBgZngQwBAgIwPwYDVR0fBDgwNjA0oDKgMIYuaHR0cDovL0dF QU5ULmNybC5zZWN0aWdvLmNvbS9HRUFOVE9WRUNDQ0E0LmNybDB1BggrBgEFBQcB AQRpMGcwOgYIKwYBBQUHMAKGLmh0dHA6Ly9HRUFOVC5jcnQuc2VjdGlnby5jb20v R0VBTlRPVkVDQ0NBNC5jcnQwKQYIKwYBBQUHMAGGHWh0dHA6Ly9HRUFOVC5vY3Nw LnNlY3RpZ28uY29tMB8GA1UdEQQYMBaCFGZlZGVyYXRpb24uYmVsbmV0LmJlMIIB fQYKKwYBBAHWeQIEAgSCAW0EggFpAWcAdgDPEVbu1S58r/OHW9lpLpvpGnFnSrAX 7KwB0lt3zsw7CAAAAY4S/VLNAAAEAwBHMEUCIELorXj73o5O36/cSep7LmEPvMI5 tc2W/3FhP1PTbsUPAiEAmyZgYJacYXbgsHHPzhH9haa6wTlUCWfysCSBB5HKn9YA dgCi4wrkRe+9rZt+OO1HZ3dT14JbhJTXK14bLMS5UKRH5wAAAY4S/VJoAAAEAwBH MEUCIQCfJyFNi06bOYIuVBtz8K/tGagFKWrLUbe/4I46YUvWwAIgTuNppbuB6JvR /n9O334KDXCejIzSr20SV3G+vJsglLcAdQBOdaMnXJoQwzhbbNTfP1LrHfDgjhuN acCx+mSxYpo53wAAAY4S/VJoAAAEAwBGMEQCIHf7tjQRznsDUKYDObVq3xeBkRQA n/qG85G8wwRH3PJ4AiBvncSBjys72+Ev4lJ7EplzajuKPLOaPemJvlEtdm7aXzAK BggqhkjOPQQDAgNIADBFAiAauNBcAphKipcZl3djv+lN4nI7VRNnAXGLXLcpZ0Pj VAIhAI2++mSGRshDsbt1BEske9mRs4ji93rsAWbLNQoQCaLi </ds:X509Certificate>
+<ds:X509Certificate>MIIDeTCCAv+gAwIBAgIRAOuOgRlxKfSvZO+BSi9QzukwCgYIKoZIzj0EAwMwgYgx CzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpOZXcgSmVyc2V5MRQwEgYDVQQHEwtKZXJz ZXkgQ2l0eTEeMBwGA1UEChMVVGhlIFVTRVJUUlVTVCBOZXR3b3JrMS4wLAYDVQQD EyVVU0VSVHJ1c3QgRUNDIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MB4XDTIwMDIx ODAwMDAwMFoXDTMzMDUwMTIzNTk1OVowRDELMAkGA1UEBhMCTkwxGTAXBgNVBAoT EEdFQU5UIFZlcmVuaWdpbmcxGjAYBgNVBAMTEUdFQU5UIE9WIEVDQyBDQSA0MFkw EwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXYkvGrfrMs2IwdI5+IwpEwPh+igW/BOW etmOwP/ZIXC8fNeC3/ZYPAAMyRpFS0v3/c55FDTE2xbOUZ5zeVZYQqOCAYswggGH MB8GA1UdIwQYMBaAFDrhCYbUzxnClnZ0SXbc4DXGY2OaMB0GA1UdDgQWBBTttKAz ahsIkba9+kGSvZqrq2P0UzAOBgNVHQ8BAf8EBAMCAYYwEgYDVR0TAQH/BAgwBgEB /wIBADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwOAYDVR0gBDEwLzAt BgRVHSAAMCUwIwYIKwYBBQUHAgEWF2h0dHBzOi8vc2VjdGlnby5jb20vQ1BTMFAG A1UdHwRJMEcwRaBDoEGGP2h0dHA6Ly9jcmwudXNlcnRydXN0LmNvbS9VU0VSVHJ1 c3RFQ0NDZXJ0aWZpY2F0aW9uQXV0aG9yaXR5LmNybDB2BggrBgEFBQcBAQRqMGgw PwYIKwYBBQUHMAKGM2h0dHA6Ly9jcnQudXNlcnRydXN0LmNvbS9VU0VSVHJ1c3RF Q0NBZGRUcnVzdENBLmNydDAlBggrBgEFBQcwAYYZaHR0cDovL29jc3AudXNlcnRy dXN0LmNvbTAKBggqhkjOPQQDAwNoADBlAjAfs9nsM0qaJGVu6DpWVy4qojiOpwV1 h/MWZ5GJxy6CKv3+RMB3STkaFh0+Hifbk24CMQDRf/ujXAQ1b4nFpZGaSIKldygc dCDAxbAd9tlxcN/+J534CJDblzd/40REzGWwS5k= </ds:X509Certificate>
+<ds:X509Certificate>MIID0zCCArugAwIBAgIQVmcdBOpPmUxvEIFHWdJ1lDANBgkqhkiG9w0BAQwFADB7 MQswCQYDVQQGEwJHQjEbMBkGA1UECAwSR3JlYXRlciBNYW5jaGVzdGVyMRAwDgYD VQQHDAdTYWxmb3JkMRowGAYDVQQKDBFDb21vZG8gQ0EgTGltaXRlZDEhMB8GA1UE AwwYQUFBIENlcnRpZmljYXRlIFNlcnZpY2VzMB4XDTE5MDMxMjAwMDAwMFoXDTI4 MTIzMTIzNTk1OVowgYgxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpOZXcgSmVyc2V5 MRQwEgYDVQQHEwtKZXJzZXkgQ2l0eTEeMBwGA1UEChMVVGhlIFVTRVJUUlVTVCBO ZXR3b3JrMS4wLAYDVQQDEyVVU0VSVHJ1c3QgRUNDIENlcnRpZmljYXRpb24gQXV0 aG9yaXR5MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEGqxUWqn5aCPnetUkb1PGWthL q8bVttHmc3Gu3ZzWDGH926CJA7gFFOxXzu5dP+Ihs8731Ip54KODfi2X0GHE8Znc JZFjq38wo7Rw4sehM5zzvy5cU7Ffs30yf4o043l5o4HyMIHvMB8GA1UdIwQYMBaA FKARCiM+lvEH7OKvKe+CpX/QMKS0MB0GA1UdDgQWBBQ64QmG1M8ZwpZ2dEl23OA1 xmNjmjAOBgNVHQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zARBgNVHSAECjAI MAYGBFUdIAAwQwYDVR0fBDwwOjA4oDagNIYyaHR0cDovL2NybC5jb21vZG9jYS5j b20vQUFBQ2VydGlmaWNhdGVTZXJ2aWNlcy5jcmwwNAYIKwYBBQUHAQEEKDAmMCQG CCsGAQUFBzABhhhodHRwOi8vb2NzcC5jb21vZG9jYS5jb20wDQYJKoZIhvcNAQEM BQADggEBABns652JLCALBIAdGN5CmXKZFjK9Dpx1WywV4ilAbe7/ctvbq5AfjJXy ij0IckKJUAfiORVsAYfZFhr1wHUrxeZWEQff2Ji8fJ8ZOd+LygBkc7xGEJuTI42+ FsMuCIKchjN0djsoTI0DQoWz4rIjQtUfenVqGtF8qmchxDM6OW1TyaLtYiKou+JV bJlsQ2uRl9EMC5MCHdK8aXdJ5htN978UeAOwproLtOGFfy/cQjutdAFI3tZs4RmY CV4Ks2dH/hzg1cEo70qLRDEmBDeNiXQ2Lu+lIg+DdEmSx/cQwgwp+7e9un/jX9Wf 8qn0dNW44bOwgeThpWOjzOoEeJBuv/c= </ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:EntityDescriptor ID="_f022dde2dd7d2939a8b63ca59eeea9db93131370" entityID="https://ipb.uclouvain.be/shibboleth">
+<md:Extensions>
+<alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+<alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha384"/>
+<alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha224"/>
+<alg:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512"/>
+<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha384"/>
+<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
+<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha224"/>
+<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha384"/>
+<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<alg:SigningMethod Algorithm="http://www.w3.org/2009/xmldsig11#dsa-sha256"/>
+<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha1"/>
+<alg:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<alg:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/>
+<mdrpi:RegistrationInfo registrationAuthority="http://federation.belnet.be/" registrationInstant="2012-03-27T12:00:00Z">
+<mdrpi:RegistrationPolicy xml:lang="en">http://federation.belnet.be/files/Belnet-metadata-registration-practice-statement.txt</mdrpi:RegistrationPolicy>
+</mdrpi:RegistrationInfo>
+<mdattr:EntityAttributes>
+<saml:Attribute Name="urn:oasis:names:tc:SAML:attribute:assurance-certification" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+<saml:AttributeValue>https://refeds.org/sirtfi</saml:AttributeValue>
+</saml:Attribute>
+</mdattr:EntityAttributes>
+</md:Extensions>
+<md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:Extensions>
+<init:RequestInitiator Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://ipb.uclouvain.be/Shibboleth.sso/Login"/>
+<idpdisc:DiscoveryResponse Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://ipb.uclouvain.be/Shibboleth.sso/Login" index="1"/>
+<mdui:UIInfo>
+<mdui:DisplayName xml:lang="fr">IPB - ISP - UCLouvain</mdui:DisplayName>
+<mdui:DisplayName xml:lang="en">IPB - ISP - UCLouvain</mdui:DisplayName>
+<mdui:Description xml:lang="fr">Publié depuis 1934 par l’Institut supérieur de philosophie de l’Université catholique de Louvain, l’International Philosophical Bibliography / le Répertoire bibliographique de la philosophie (IPB) reste aujourd’hui encore un outil de recherche indispensable en philosophie.</mdui:Description>
+<mdui:Description xml:lang="en">Published since 1934 by the Institut superieur de philosophie of the Universite catholique de Louvain, the International Philosophical Bibliography (IPB) remains an indispensable research tool in philosophy.</mdui:Description>
+<mdui:InformationURL xml:lang="fr">https://uclouvain.be/fr/instituts-recherche/isp/ipb.html</mdui:InformationURL>
+<mdui:InformationURL xml:lang="en">https://uclouvain.be/en/research-institutes/isp/ipb.html</mdui:InformationURL>
+<mdui:PrivacyStatementURL xml:lang="fr">https://www.uclouvain.be/10547.html</mdui:PrivacyStatementURL>
+<mdui:Logo height="150" width="184">https://idp.uclouvain.be/logo_isp_web.jpg</mdui:Logo>
+</mdui:UIInfo>
+<mdui:DiscoHints>
+<mdui:IPHint>130.104.0.0/16</mdui:IPHint>
+<mdui:IPHint>2001:6a8:3080::/44</mdui:IPHint>
+<mdui:DomainHint>uclouvain.be</mdui:DomainHint>
+<mdui:GeolocationHint>geo:50.669920,4.615240</mdui:GeolocationHint>
+</mdui:DiscoHints>
+</md:Extensions>
+<md:KeyDescriptor>
+<ds:KeyInfo>
+<ds:KeyName>ipb.sipr.ucl.ac.be</ds:KeyName>
+<ds:X509Data>
+<ds:X509SubjectName>CN=ipb.sipr.ucl.ac.be</ds:X509SubjectName>
+<ds:X509Certificate>MIIECDCCAnCgAwIBAgIURxWd4Wd7S6GDKq/KDj22iHUexdEwDQYJKoZIhvcNAQEL BQAwHTEbMBkGA1UEAxMSaXBiLnNpcHIudWNsLmFjLmJlMB4XDTIxMDQyMzEyNDMx NVoXDTMxMDQyMTEyNDMxNVowHTEbMBkGA1UEAxMSaXBiLnNpcHIudWNsLmFjLmJl MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAu/S/ys1Ly8PKrPIjxZVa qasmwaGiIddg2doPzt8undj+HNUZizmwAhOnkHHSo1bcrRDKAo6R83V0K9whhIv7 iLqdM6OMY+N3LPmv9PYcKiam4iOpN3kQbgjx4xpJVwAP97MHx3l99gCud3HeS1XZ LTWoiZt4zBtCopmpECdrX/EJUEJPCVjdoFohMV91Ra4TPv8/VlLWV3rRbPXhyfkq rAENthzmXHt31T3xp9F2i2BmKsuP/w1TenA+9vb3fOfPY5VJSJNiaXHvYijAxW2G NFpl3yOj0fXBflaI0TdfnPTKydpmlyeFGNQpLdXm1CnrCqsNP10GpZrME3frSejY iqB+pMC/sto9oYzF7VomkiO4FsViRpE9hg9FHl1w/3GYV4oelGGcu8helMYZ7/Kl 6a8knTOAAU62DcL1j2g3fZjFpUGj8syP1tFXJjtFexo7IJPG+rS8sIGi53aFHD7P 0Aqpx/aRwvcgvADQz6M/dZrTiBzmCFudR3Ul8ib1Kn7/AgMBAAGjQDA+MB0GA1Ud EQQWMBSCEmlwYi5zaXByLnVjbC5hYy5iZTAdBgNVHQ4EFgQUy9WYXZlHXnTf7S/U 0ZiEsrM8Ju0wDQYJKoZIhvcNAQELBQADggGBAINffR3ec+qVOAtm97l3GqOEBHDm I+gDGkLuSu2/fna3th+QXpDQewp+/afbJYA1uph6fqQw7CgWLgZb2fchz2oz5Xhm O2VHkfMxqPh5W+QZPKcqokqCfu1lq3uJYOzCouDG+ciGBH/l8E2GTMFgBfkWpAKl MOdnBzBmsix+x8DOm63EliJtp7GL29jxzDchC6d5YCjkQuBe/ZEF6oQYtqggmQds r1TA1N88vGTnWySqqIoPo/DM1MsCxnGps+3Dbop/L+rKYLFQNfy9txD6xhxhKocZ ZU7v+Tv6uIOMmjOnXn7cj4cYJDS7kA7bTHG+tMhF+ULG8VO8s3Tvj4vc34tTC7Lz mSeh/nOyIgjjynBGw/ueR9i6n3p16gL6W/wke3brYjkWo6GlMAtF/9/gV/wayeaT 9TGW7zZ8bZOCUO9dZDj7zLebuDTX8vfEiA75vd2IvRlups6i5kuNBB4Hr5KiQih4 cBF9+UPBLAD7nHSe62gLH3jFDJ4z9iXKUmU4mg== </ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes128-gcm"/>
+<md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes192-gcm"/>
+<md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes256-gcm"/>
+<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes192-cbc"/>
+<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc"/>
+<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/>
+<md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#rsa-oaep"/>
+<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+</md:KeyDescriptor>
+<md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://ipb.uclouvain.be/Shibboleth.sso/Artifact/SOAP" index="1"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://ipb.uclouvain.be/Shibboleth.sso/SLO/SOAP"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://ipb.uclouvain.be/Shibboleth.sso/SLO/Redirect"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ipb.uclouvain.be/Shibboleth.sso/SLO/POST"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://ipb.uclouvain.be/Shibboleth.sso/SLO/Artifact"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ipb.uclouvain.be/Shibboleth.sso/SAML2/POST" index="1"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://ipb.uclouvain.be/Shibboleth.sso/SAML2/POST-SimpleSign" index="2"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://ipb.uclouvain.be/Shibboleth.sso/SAML2/Artifact" index="3"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://ipb.uclouvain.be/Shibboleth.sso/SAML2/ECP" index="4"/>
+</md:SPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="en">UCLouvain</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="en">Catholic University of Louvain</md:OrganizationDisplayName>
+<md:OrganizationDisplayName xml:lang="fr">Universite catholique de Louvain</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="en">https://www.uclouvain.be/</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="technical">
+<md:GivenName>Delcourt</md:GivenName>
+<md:SurName>Olivier</md:SurName>
+<md:EmailAddress>mailto:olivier.delcourt@uclouvain.be</md:EmailAddress>
+</md:ContactPerson>
+<md:ContactPerson contactType="administrative">
+<md:GivenName>IPB</md:GivenName>
+<md:SurName>Helpdesk</md:SurName>
+<md:EmailAddress>mailto:ipb-isp@uclouvain.be </md:EmailAddress>
+</md:ContactPerson>
+<md:ContactPerson contactType="other" remd:contactType="http://refeds.org/metadata/contactType/security">
+<md:GivenName>Security Response Team</md:GivenName>
+<md:EmailAddress>mailto:ussi@uclouvain.be</md:EmailAddress>
+</md:ContactPerson>
+</md:EntityDescriptor>
+</md:EntitiesDescriptor>
